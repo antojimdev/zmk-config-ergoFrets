@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp F1   &kp F2           &kp F3        &kp F4   &kp INS      &kp DEL
-&caps_word  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0          &kp F5   &kp F6           &kp F7        &kp F8   &kp HOME     &kp END
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F9   &kp F10          &kp F11       &kp F12  &kp PAGE_UP  &kp PAGE_DOWN
-                                        &trans        &trans        &kp SPACE       &kp RET  &kp PRINTSCREEN  &kp LEFT_ALT
+&kp ESCAPE    &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp F1   &kp F2           &kp F3        &kp F4   &kp INS      &kp DEL
+&kp CAPSLOCK  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0          &kp F5   &kp F6           &kp F7        &kp F8   &kp HOME     &kp END
+&trans        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F9   &kp F10          &kp F11       &kp F12  &kp PAGE_UP  &kp PAGE_DOWN
+                                          &trans        &trans        &kp SPACE       &kp RET  &kp PRINTSCREEN  &kp LEFT_ALT
             >;
         };
 
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE      &kp EXCL              &kp AT                 &kp HASH          &kp DLLR           &kp PRCNT    &kp CARET       &kp AMPS            &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
-&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE    &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW     &kp RIGHT  &kp BSLH  &kp GRAVE
-&trans          &kp UNDER             &kp MINUS              &kp PLUS          &kp EQUAL          &kp PIPE     &trans          &kp LA(LEFT_SHIFT)  &trans           &trans     &none     &bt BT_CLR
-                                                             &kp LGUI          &trans             &kp SPACE    &kp RET         &trans              &kp LG(L)
+&kp ESCAPE      &kp EXCL              &kp AT                 &kp HASH          &kp DLLR           &kp PRCNT            &kp CARET         &kp AMPS         &kp KP_MULTIPLY    &kp MINUS  &kp EQUAL  &kp BSPC
+&kp RCTRL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH        &kp LEFT_ARROW    &kp DOWN_ARROW   &kp UP_ARROW       &kp RIGHT  &kp BSLH   &kp GRAVE
+&kp LEFT_SHIFT  &none                 &none                  &none             &none              &kp K_SCREENSAVER    &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans     &none      &trans
+                                                             &kp LGUI          &trans             &kp SPACE            &kp RET           &trans           &bt BT_CLR_ALL
             >;
         };
     };
